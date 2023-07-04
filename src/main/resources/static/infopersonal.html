@@ -2,26 +2,43 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
-        <div>
-        <h3 style="text-align: center">Ingresar Informacion Personal</h3>
-        <br>
-        <br>
-        <br>
-        <form action="#">
-               
-                <input type="text" id="text" placeholder="Correo Electrónico" size="30"><br/>
+    <header class="header">
+        <nav class="nav">
+            <h1 class="tituloPrincipal">Budget Planet</h1>
+            <a href="iniciosesion.html" class="logo nav-link"></a>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="privacidad.html">Privacidad</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="index.html">Inicio</a></li>
+        </nav>
+    </header>
+    <body class="fondo">
+        <div class=container>
+            <form action="#">
+                <h2 style="text-align: center;color: forestgreen">Registro de Usuario</h2>
                 <br>
                 <br>
-                <input type="text" id="text" placeholder="Nombre" size="30"><br/>   
+                <br>
+                <input type="text" id="text" placeholder="Nombre" size="30"><br/>
                 <br>
                 <br>
-                <input type="text" id="text" placeholder="Numero Telefonico" size="30"><br/>
+                <input type="text" id="text" placeholder="Apellidos" size="30"><br/>   
                 <br>
                 <br>
-                <label>button </label><input type="button" id="button" name="button" value="Confirmar" /><br/>
+                <input type="text" id="text" placeholder="Correo electrónico" size="30"><br/>
+                <br>
+                <br>
+                <input type="text" id="text" placeholder="Contraseña" size="30"><br/>
+                <br>
+                <br>
+                <input type="text" id="text" placeholder="Confirmar contraseña" size="30"><br/>
+                <br>
+                <br>
+                <a href="iniciosesion.html"><input type="button" id="button" name="button" value="Confirmar" /><br/></a>
             </form>
         </div>
+        <strong><footer class="footer">Derechos Reservados por Budget Planet 2023 &COPY;</footer></strong>
     </body>
 </html>

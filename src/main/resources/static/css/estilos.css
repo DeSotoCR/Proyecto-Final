@@ -1,7 +1,15 @@
-#tituloPrincipal{
-    color: darkgreen;
+.tituloPrincipal{
+    text-align: left;
+    color: white;
+    padding: 25px
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .parrafos{
     text-align: center;
     color: green;
@@ -14,7 +22,7 @@
 }
 
 a{
-    color:cyan;
+    color: forestgreen;
 }
 
 a hover {
@@ -28,5 +36,10 @@ a adictive{
 }
 a visited {
     font-size: 20px;
+}
+
+.fondo{
+    background-color: black;
+    color: white
 }
 
