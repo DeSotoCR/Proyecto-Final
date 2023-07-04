@@ -1,0 +1,32 @@
+#tituloPrincipal{
+    color: darkgreen;
+}
+
+.parrafos{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+.enfasis{
+    background-color: buttonshadow;
+    color: red;
+}
+
+a{
+    color:cyan;
+}
+
+a hover {
+    background-color: buttonshadow;
+    color: red;
+}
+
+a adictive{
+    background-color:red;
+    color:black;
+}
+a visited {
+    font-size: 20px;
+}
+
